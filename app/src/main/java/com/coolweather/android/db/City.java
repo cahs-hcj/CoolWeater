@@ -32,11 +32,18 @@ public class City extends DataSupport {
         return cityName;
     }
 
-    public int getCityCode() {
+    public int getCityCode(int id) {
         return cityCode;
     }
 
     public int getProvinceCode() {
         return provinceCode;
+    }
+
+    public void setProvinceId(int provinceId) {
+    }
+
+    public int getCityCode() {
+        return cityCode;
     }
 }
